@@ -1,0 +1,22 @@
+body  {
+    margin: 0;
+}
+
+#img {
+    height: 100vh;
+    width: auto;
+    margin: 0 auto;
+}
+
+#heart {
+    color: red;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: font-size 1s;
+}
+
+
+.hidden::before {
+    visibility: hidden;
+}
+
